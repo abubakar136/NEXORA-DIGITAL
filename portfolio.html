@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | NEXORA DIGITAL</title>
+    <meta name="description" content="NEXORA DIGITAL – digital experiences built for what's next.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header>
+        <div class="wrap bar">
+            <a class="logo" href="index.html">
+                NEXORA<span>.</span>DIGITAL
+            </a>
+            <nav id="site-nav" aria-label="Main">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="tools">
+                <button class="ibtn" id="theme-btn" aria-label="Switch theme">◐</button>
+                <button
+                    class="ibtn"
+                    id="menu-btn"
+                    aria-expanded="false"
+                    aria-controls="site-nav"
+                    aria-label="Toggle menu"
+                >
+                    Menu
+                </button>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <!-- Portfolio Hero Section -->
+        <section class="hero">
+            <div class="wrap">
+                <p class="eyebrow">Portfolio</p>
+                <h1>Concept work.</h1>
+                <p>These are fictional concept projects, not completed client work.</p>
+                <div class="chips" role="group" aria-label="Filter projects">
+                    <button aria-pressed="true" data-filter="all">All</button>
+                    <button aria-pressed="false" data-filter="websites">Websites</button>
+                    <button aria-pressed="false" data-filter="ecommerce">E-commerce</button>
+                    <button aria-pressed="false" data-filter="branding">Branding</button>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Projects -->
+        <section class="sec">
+            <div class="wrap">
+                <div class="grid g2">
+                    <article data-cat="ecommerce">
+                        <div
+                            class="vis"
+                            role="img"
+                            aria-label="Abstract concept preview for Harbor & Loom"
+                        >
+                            Harbor
+                        </div>
+                        <h3>Harbor & Loom</h3>
+                        <p>E-commerce · Concept project</p>
+                        <p>
+                            An online shop for a small textile maker.
+                            Calm product-first grids and a simple checkout.
+                        </p>
+                        <span class="tag">E-commerce, UI/UX</span>
+                    </article>
+                    <article data-cat="websites">
+                        <div
+                            class="vis v2"
+                            role="img"
+                            aria-label="Abstract concept preview for Kite Clinic"
+                        >
+                            Kite
+                        </div>
+                        <h3>Kite Clinic</h3>
+                        <p>Dental care · Concept project</p>
+                        <p>
+                            A booking-focused clinic website.
+                            Reassuring type, large tap targets, clear service pages.
+                        </p>
+                        <span class="tag">Web development, SEO</span>
+                    </article>
+                    <article data-cat="branding">
+                        <div
+                            class="vis v3"
+                            role="img"
+                            aria-label="Abstract concept preview for Tessera Coffee"
+                        >
+                         Tessera
+                        </div>
+                        <h3>Tessera Coffee</h3>
+                        <p>Specialty roaster · Concept project</p>
+                        <p>
+                            A visual identity and landing page.
+                            Bold wordmark, earthy palette, tactile patterns.
+                        </p>
+                        <span class="tag">Branding, web design</span>
+                    </article>
+                    <article data-cat="websites">
+                        <div
+                            class="vis"
+                            role="img"
+                            aria-label="Abstract concept preview for Fieldnote Studio"
+                        >
+                            Fieldnote
+                        </div>
+                        <h3>Fieldnote Studio</h3>
+                        <p>Architecture practice · Concept project</p>
+                        <p>
+                            A portfolio-led site for a design practice.
+                            Editorial layouts and restrained motion.
+                        </p>
+                        <span class="tag">Web design, performance</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Call to Action -->
+        <section class="sec">
+            <div class="wrap">
+                <h2>Have a project in mind?</h2>
+                <div class="cta">
+                    <a class="btn" href="contact.html">Start a conversation</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="wrap">
+            <div class="foot">
+                <div>
+                    <a class="logo" href="index.html">
+                        NEXORA<span>.</span>DIGITAL
+                    </a>
+                    <p>Digital experiences built for what's next.</p>
+                </div>
+                <nav aria-label="Footer">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <address style="font-style: normal">
+                    <p>
+                        Sample contact info:<br>
+                        hello@nexora.example<br>
+                        +00 000 000 0000<br>
+                        Sample City
+                    </p>
+                </address>
+            </div>
+            <p class="small">
+                © 2026 NEXORA DIGITAL – fictional agency created for the
+                Devixo Solutions Web Development Internship (Task 2) by
+                Abubakar Siddique.
+            </p>
+        </div>
+    </footer>
+    <!-- Scroll to Top -->
+    <button class="ibtn" id="top" aria-label="Scroll to top">↑</button>
+    <script src="main.js"></script>
+</body>
+</html>

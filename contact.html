@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Contact | NEXORA DIGITAL</title>
+
+    <meta
+        name="description"
+        content="NEXORA DIGITAL – digital experiences built for what's next."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a class="skip" href="#main">Skip to content</a>
+
+    <!-- Header -->
+    <header>
+        <div class="wrap bar">
+
+            <a class="logo" href="index.html">
+                NEXORA<span>.</span>DIGITAL
+            </a>
+
+            <nav id="site-nav" aria-label="Main">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" aria-current="page">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="tools">
+
+                <button
+                    class="ibtn"
+                    id="theme-btn"
+                    aria-label="Switch theme"
+                >
+                    ◐
+                </button>
+
+                <button
+                    class="ibtn"
+                    id="menu-btn"
+                    aria-expanded="false"
+                    aria-controls="site-nav"
+                    aria-label="Toggle menu"
+                >
+                    Menu
+                </button>
+
+            </div>
+
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!-- Contact Hero and Form -->
+        <section class="hero">
+            <div class="wrap">
+
+                <p class="eyebrow">Contact</p>
+
+                <h1>Tell us about your project.</h1>
+
+                <form id="contact-form" novalidate>
+
+                    <div>
+                        <label for="name">Name</label>
+
+                        <input
+                            id="name"
+                            name="name"
+                            autocomplete="name"
+                            required
+                        >
+
+                        <div class="err" id="e-name" role="alert"></div>
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            autocomplete="email"
+                            required
+                        >
+
+                        <div class="err" id="e-email" role="alert"></div>
+                    </div>
+
+                    <div>
+                        <label for="subject">Subject</label>
+
+                        <input
+                            id="subject"
+                            name="subject"
+                            required
+                        >
+
+                        <div class="err" id="e-subject" role="alert"></div>
+                    </div>
+
+                    <div>
+                        <label for="message">Message</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            required
+                        ></textarea>
+
+                        <div class="err" id="e-message" role="alert"></div>
+                    </div>
+
+                    <button class="btn" type="submit">
+                        Send message
+                    </button>
+
+                </form>
+
+                <!-- Form Success Message -->
+                <div class="ok" id="success" tabindex="-1" hidden>
+                    <h2>Form validated ✓</h2>
+
+                    <p>
+                        This is a frontend-only demo: nothing was sent.
+                        Real delivery needs a backend or a form service.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="sec">
+            <div class="wrap">
+
+                <h2>Sample details</h2>
+
+                <p>
+                    hello@nexora.example · +00 000 000 0000 · Sample City
+                    (placeholder information).
+                </p>
+
+                <h2 style="margin-top: 2rem">Before you write</h2>
+
+                <p>
+                    Mention your goals, audience, timeline and any sites
+                    you admire.
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="wrap">
+
+            <div class="foot">
+
+                <div>
+                    <a class="logo" href="index.html">
+                        NEXORA<span>.</span>DIGITAL
+                    </a>
+
+                    <p>Digital experiences built for what's next.</p>
+                </div>
+
+                <nav aria-label="Footer">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <address style="font-style: normal">
+                    <p>
+                        Sample contact info:<br>
+                        hello@nexora.example<br>
+                        +00 000 000 0000<br>
+                        Sample City
+                    </p>
+                </address>
+
+            </div>
+
+            <p class="small">
+                © 2026 NEXORA DIGITAL – fictional agency created for the
+                Devixo Solutions Web Development Internship (Task 2) by
+                Abubakar Siddique.
+            </p>
+
+        </div>
+    </footer>
+
+    <!-- Scroll-to-Top Button -->
+    <button class="ibtn" id="top" aria-label="Scroll to top">
+        ↑
+    </button>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
